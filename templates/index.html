@@ -1,0 +1,11 @@
+<!-- templates/index.html -->
+
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h1>Welcome, {{ current_user.username }}!</h1>
+    <p>This is the home page.</p>
+    <!-- Additional content as needed -->
+{% endblock %}
